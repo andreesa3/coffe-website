@@ -188,7 +188,6 @@ section {
   margin: 0 auto;
   transform: translateX(-50%, -10%);
   border-radius: 100%;
-  border: 3px solid var(--clr-lightbrown);
 }
 .author {
   text-align: right;
