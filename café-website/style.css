@@ -37,7 +37,7 @@ img {
   max-width: 100%;
 }
 h1 {
-  font-size: 7vw;
+  font-size: 6.25vw;
   padding-bottom: 1.2rem;
 }
 h2 {
@@ -338,20 +338,19 @@ footer {
 
   /* About section */
   .text-div {
-    padding: 2.5rem 3rem 1.5rem;
+    padding: 0 3rem;
   }
   .about-box {
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr;
+    margin: 5rem 0;
   }
   .about-box img {
-    margin: 0 0 5rem 0.5rem;
     border-radius: 2rem 0 0 2rem;
   }
   .about-box:nth-of-type(2) img {
     grid-area: 1 / 1 / 2 / 2;
-    margin: 0 0.5rem 5rem 0;
     border-radius: 0 2rem 2rem 0;
   }
   .about-box:nth-of-type(2) .text-div {
