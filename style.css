@@ -366,11 +366,10 @@ footer {
     margin: 5rem 0;
   }
   .about-box img {
-    border-radius: 2rem 0 0 2rem;
+    border-radius: 2rem;
   }
   .about-box:nth-of-type(2) img {
     grid-area: 1 / 1 / 2 / 2;
-    border-radius: 0 2rem 2rem 0;
   }
   .about-box:nth-of-type(2) .text-div {
     grid-area: 1 / 2 / 2 / 3;
