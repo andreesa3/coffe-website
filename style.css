@@ -69,13 +69,25 @@ section {
 }
 
 /* Scrollbar */
-.scrollbar-container {
-  height: 100%; /* Altezza del container */
-  overflow: hidden;
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
 }
-.content {
-  height: 100%; /* Altezza del contenuto */
-  overflow-y: scroll;
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--clr-lightbrown);
+  border-radius: 2rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--clr-brown);
 }
 
 /* Front Page */
